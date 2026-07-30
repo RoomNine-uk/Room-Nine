@@ -642,3 +642,78 @@ body:not([data-inner]) .section.dark + .section{padding-top:clamp(40px,5vw,70px)
     max-height:52px;
   }
 }
+
+/* V5.9 mobile and client-logo rebuild */
+.work-card{display:block}
+
+/* Keep the existing two-way marquee, but use individually rebuilt logo assets
+   with generous space so no logo is cropped at the top or bottom. */
+.client-logo-marquee{
+  padding:34px 0 46px;
+  overflow:hidden;
+}
+.logo-row{
+  width:100%;
+  padding:14px 0;
+  overflow:hidden;
+}
+.logo-track{
+  display:flex;
+  width:max-content;
+  align-items:center;
+  will-change:transform;
+}
+.logo-track.left{animation:logoTickerLeft 46s linear infinite}
+.logo-track.right{transform:translateX(-50%);animation:logoTickerRight 40s linear infinite}
+.logo-item{
+  width:clamp(190px,14vw,265px);
+  height:150px;
+  padding:20px 28px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 auto;
+  overflow:visible;
+}
+.logo-item img{
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  object-position:center;
+}
+
+/* Make the mobile menu state deterministic in Safari. */
+.mobile-menu{visibility:hidden;pointer-events:none}
+.mobile-menu.open{visibility:visible;pointer-events:auto}
+body.menu-open{overflow:hidden}
+
+@media(max-width:640px){
+  /* Anchors stop being grid items on mobile, so force them to remain block
+     cards. This prevents all selected-work titles and arrows overlapping. */
+  .work-grid{display:block}
+  .work-card,.work-card:nth-child(n){
+    display:block;
+    width:100%;
+    height:clamp(470px,125vw,570px);
+    min-height:0;
+    margin:0 0 12px;
+    isolation:isolate;
+  }
+  .work-card:last-child{margin-bottom:0}
+  .work-info{left:18px;right:18px;bottom:18px}
+  .card-arrow{font-family:Arial,sans-serif;font-variant-emoji:text}
+
+  .client-logo-marquee{padding:28px 0 38px}
+  .logo-marquee-heading{padding:0 var(--pad) 14px}
+  .logo-row{padding:12px 0}
+  .logo-item{
+    width:164px;
+    height:112px;
+    padding:14px 20px;
+  }
+  .logo-track.left{animation-duration:35s}
+  .logo-track.right{animation-duration:30s}
+}

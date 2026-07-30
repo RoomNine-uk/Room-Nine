@@ -9,11 +9,14 @@ const handleScroll=()=>header?.classList.toggle('scrolled',window.scrollY>40 || 
 window.addEventListener('scroll',handleScroll,{passive:true}); handleScroll();
 
 const menuBtn=$('.menu-toggle'), mobileMenu=$('.mobile-menu');
-menuBtn?.addEventListener('click',()=>{
-  mobileMenu.classList.toggle('open');
-  menuBtn.textContent=mobileMenu.classList.contains('open')?'Close':'Menu';
-});
-$$('.mobile-menu a').forEach(a=>a.addEventListener('click',()=>mobileMenu.classList.remove('open')));
+const setMenuState=open=>{
+  mobileMenu?.classList.toggle('open',open);
+  document.body.classList.toggle('menu-open',open);
+  if(menuBtn) menuBtn.textContent=open?'Close':'Menu';
+};
+menuBtn?.addEventListener('click',()=>setMenuState(!mobileMenu.classList.contains('open')));
+$$('.mobile-menu a').forEach(a=>a.addEventListener('click',()=>setMenuState(false)));
+window.addEventListener('resize',()=>{if(window.innerWidth>980)setMenuState(false)},{passive:true});
 
 // Hero slideshow
 const frames=$$('.hero-frame'), dots=$$('.hero-dot');
