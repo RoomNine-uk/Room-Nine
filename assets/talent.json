@@ -1,0 +1,567 @@
+[
+  {
+    "name": "Benty",
+    "slug": "benty",
+    "category": "Artist / Music",
+    "bio": "London-based new-generation underground rapper emerging as part of a fresh wave of UK talent. With a raw sound and strong connection to the current underground scene, Benty continues to build momentum following the release of his album BLANC.",
+    "measurements": [
+      "23 years old",
+      "170cm height",
+      "30 waist",
+      "UK 8.5 shoes"
+    ],
+    "stats": [
+      [
+        "170K+",
+        "30-day views"
+      ],
+      [
+        "16 - 30",
+        "Audience"
+      ],
+      [
+        "23K+",
+        "Monthly listeners"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/benty.official/",
+      "tiktok": "https://www.tiktok.com/@bentyb3k?lang=en-GB"
+    },
+    "image1": "assets/images/talent/benty-1.webp",
+    "image2": "assets/images/talent/benty-2.webp",
+    "rosterImage": "assets/images/talent/benty-roster.webp"
+  },
+  {
+    "name": "Eddz",
+    "slug": "eddz",
+    "category": "Creative Director / Creator",
+    "bio": "Creative director and leading force behind Nottingham’s LostBoys Channel, a collective spotlighting fashion, music, events and youth culture. Eddz has helped build a founder-led cultural world spanning clothing, parties, content and community, with brand work including Nike, NOCTA, Adidas, Mizuno, C.P. Company, Jordan and Wingstop.",
+    "measurements": [
+      "27 years old",
+      "172cm height",
+      "30 waist",
+      "UK 7 shoes"
+    ],
+    "stats": [
+      [
+        "300K+",
+        "Monthly views"
+      ],
+      [
+        "18 - 25",
+        "Audience"
+      ],
+      [
+        "500K+",
+        "90-day views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/lostboyeddz/",
+      "tiktok": "https://www.tiktok.com/@lboyeddz"
+    },
+    "image1": "assets/images/talent/eddz-1.webp",
+    "image2": "assets/images/talent/eddz-2.webp",
+    "rosterImage": "assets/images/talent/eddz-roster.webp"
+  },
+  {
+    "name": "Lozeak",
+    "slug": "lozeak",
+    "category": "Music / Fashion",
+    "bio": "Music and fashion creator with a bold visual identity and a strong Gen Z female audience. Lozeak brings an authentic edge to lifestyle and fashion campaigns, with a versatile look spanning streetwear and high fashion.",
+    "measurements": [
+      "23 years old",
+      "5'2 height",
+      "28 - 30 waist",
+      "UK 4 shoes"
+    ],
+    "stats": [
+      [
+        "640K",
+        "Total followers"
+      ],
+      [
+        "18 - 24",
+        "Female audience"
+      ],
+      [
+        "7.4M+",
+        "90-day views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/lozeak/",
+      "tiktok": "https://www.tiktok.com/@lozeak"
+    },
+    "image1": "assets/images/talent/lozeak-1.webp",
+    "image2": "assets/images/talent/lozeak-2.webp",
+    "rosterImage": "assets/images/talent/lozeak-roster.webp"
+  },
+  {
+    "name": "Lili",
+    "slug": "lili",
+    "category": "Fashion / Lifestyle",
+    "bio": "Fashion and lifestyle creator and tattoo artist with a distinct visual identity. Lili’s content feels natural and relatable, giving fashion and lifestyle campaigns a fresh perspective across both high fashion and streetwear.",
+    "measurements": [
+      "21 years old",
+      "172cm height",
+      "28 waist",
+      "UK 6 shoes"
+    ],
+    "stats": [
+      [
+        "1.5M+",
+        "90-day views"
+      ],
+      [
+        "18 - 25",
+        "Audience"
+      ],
+      [
+        "45K+",
+        "Followers"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/lilizaap/",
+      "tiktok": "https://www.tiktok.com/@lilizaap"
+    },
+    "image1": "assets/images/talent/lili-1.webp",
+    "image2": "assets/images/talent/lili-2.webp",
+    "rosterImage": "assets/images/talent/lili-roster.webp"
+  },
+  {
+    "name": "Nori",
+    "slug": "nori",
+    "category": "Music / Creator",
+    "bio": "British artist, producer and DJ known for breakthrough single ‘i_aint_fly (G6)’, recently co-signed by Fred again.. at his New York show. Nori combines music, production, DJing and content with intentional nostalgic UK references.",
+    "measurements": [
+      "23 years old",
+      "188cm height",
+      "80kg weight",
+      "32 waist",
+      "UK 11 shoes"
+    ],
+    "stats": [
+      [
+        "1M+",
+        "Weekly views"
+      ],
+      [
+        "18 - 30",
+        "Audience"
+      ],
+      [
+        "80K",
+        "Spotify monthly"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/whosnori/",
+      "tiktok": "https://www.tiktok.com/@nevrnori"
+    },
+    "image1": "assets/images/talent/nori-1.webp",
+    "image2": "assets/images/talent/nori-2.webp",
+    "rosterImage": "assets/images/talent/nori-roster.webp"
+  },
+  {
+    "name": "Juveniall",
+    "slug": "juveniall",
+    "category": "Artist / Music",
+    "bio": "London-based new-generation underground rapper and part of a fresh wave of UK talent. Following the release of his latest album Niallism, Juveniall continues to build momentum as a distinctive new voice in UK rap.",
+    "measurements": [
+      "23 years old",
+      "182cm height",
+      "32 waist",
+      "UK 9.5 shoes"
+    ],
+    "stats": [
+      [
+        "30K",
+        "Followers"
+      ],
+      [
+        "16 - 30",
+        "Audience"
+      ],
+      [
+        "40K+",
+        "Monthly listeners"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/juveniall.mk/",
+      "tiktok": "https://www.tiktok.com/@juveniall"
+    },
+    "image1": "assets/images/talent/juveniall-1.webp",
+    "image2": "assets/images/talent/juveniall-2.webp",
+    "rosterImage": "assets/images/talent/juveniall-roster.webp"
+  },
+  {
+    "name": "Miss Smallz",
+    "slug": "miss-smallz",
+    "category": "Stylist / Creator",
+    "bio": "London-based stylist, personal shopper and creator working across fashion, travel and culture. She has styled and worked on projects for Jim Legxacy, Slawn, Nia Smith and LostBoys, and collaborated with brands including Nike, Corteiz, Mizuno and New Era.",
+    "measurements": [
+      "22 years old",
+      "5'0 height",
+      "24 waist",
+      "UK 4 shoes"
+    ],
+    "stats": [
+      [
+        "120K",
+        "Total followers"
+      ],
+      [
+        "18 - 24",
+        "Female audience"
+      ],
+      [
+        "3.5M+",
+        "90-day views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/missmallz/",
+      "tiktok": "https://www.tiktok.com/@missmallz"
+    },
+    "image1": "assets/images/talent/miss-smallz-1.webp",
+    "image2": "assets/images/talent/miss-smallz-2.webp",
+    "rosterImage": "assets/images/talent/miss-smallz-roster.webp"
+  },
+  {
+    "name": "Travy",
+    "slug": "travy",
+    "category": "Artist / Culture",
+    "bio": "Irish rapper and artist helping push a new wave of Irish music and underground culture. A member of Gliders, Travy moves across rap, dance-led music, clothing, art, events and community, with co-signs from Fred again.. and Interplanetary Criminal and previous work with Unknown London, GAP and Adidas.",
+    "measurements": [
+      "27 years old",
+      "195cm height",
+      "32 - 34 waist",
+      "UK 11 shoes"
+    ],
+    "stats": [
+      [
+        "600K+",
+        "Monthly views"
+      ],
+      [
+        "18 - 30",
+        "Audience"
+      ],
+      [
+        "70K+",
+        "Monthly listeners"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/travystop/",
+      "tiktok": "https://www.tiktok.com/@cellularbandit"
+    },
+    "image1": "assets/images/talent/travy-1.webp",
+    "image2": "assets/images/talent/travy-2.webp",
+    "rosterImage": "assets/images/talent/travy-roster.webp"
+  },
+  {
+    "name": "Dex",
+    "slug": "dex",
+    "category": "Fashion / Creator",
+    "bio": "British content creator known for his take on sports-lifestyle fashion and streetwear. Dex has partnered with Nike, JD Sports, Foot Locker, Vinted, END. and New Balance, and is helping shape the next wave of UK fashion content.",
+    "measurements": [
+      "20 years old",
+      "183cm height",
+      "64kg weight",
+      "30 waist",
+      "UK 9 shoes"
+    ],
+    "stats": [
+      [
+        "1M+",
+        "Weekly views"
+      ],
+      [
+        "18 - 24",
+        "Audience"
+      ],
+      [
+        "30M",
+        "Total views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/dexdurrant/",
+      "tiktok": "https://www.tiktok.com/@dexdurrant"
+    },
+    "image1": "assets/images/talent/dex-1.webp",
+    "image2": "assets/images/talent/dex-2.webp",
+    "rosterImage": "assets/images/talent/dex-roster.webp"
+  },
+  {
+    "name": "Rubi",
+    "slug": "rubi",
+    "category": "Fashion / Creator",
+    "bio": "British creator recognised for her individual take on streetwear and high fashion. Rubi has partnered with Nike, Celine, Tommy Hilfiger and Adidas, adapting nostalgic UK and American references into a versatile and highly recognisable look.",
+    "measurements": [
+      "21 years old",
+      "5'7 height",
+      "32 bust",
+      "24 waist",
+      "UK 6 shoes"
+    ],
+    "stats": [
+      [
+        "7M+",
+        "90-day views"
+      ],
+      [
+        "18 - 25",
+        "Female audience"
+      ],
+      [
+        "260K+",
+        "90-day likes"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/rubeswardd/",
+      "tiktok": "https://www.tiktok.com/@wtfbruh1111111"
+    },
+    "image1": "assets/images/talent/rubi-1.webp",
+    "image2": "assets/images/talent/rubi-2.webp",
+    "rosterImage": "assets/images/talent/rubi-roster.webp"
+  },
+  {
+    "name": "Hayb",
+    "slug": "hayb",
+    "category": "Fashion / Creator",
+    "bio": "British content creator known for his full-fit posts and a distinctive mix of British and American fashion. Hayb has partnered with Unknown London, Trapstar and PRTCT, with some of his strongest-performing content created in Japan.",
+    "measurements": [
+      "22 years old",
+      "185cm height",
+      "60kg weight",
+      "31 - 32 waist",
+      "UK 9 shoes"
+    ],
+    "stats": [
+      [
+        "180K",
+        "90-day engagement"
+      ],
+      [
+        "18 - 24",
+        "Audience"
+      ],
+      [
+        "3.1M+",
+        "90-day views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/7hayb7/",
+      "tiktok": "https://www.tiktok.com/@7hayb7"
+    },
+    "image1": "assets/images/talent/hayb-1.webp",
+    "image2": "assets/images/talent/hayb-2.webp",
+    "rosterImage": "assets/images/talent/hayb-roster.webp"
+  },
+  {
+    "name": "Ami",
+    "slug": "ami",
+    "category": "Creator / AI",
+    "bio": "British content creator building momentum through distinctive social videos involving AI, fashion and humour. Ami has partnered with Cold Culture, HCW and PRTCT, combining UK and American references while pushing the format of short-form content.",
+    "measurements": [
+      "172cm height",
+      "62kg weight",
+      "Small size",
+      "UK 7.5 shoes"
+    ],
+    "stats": [
+      [
+        "12M+",
+        "Monthly views"
+      ],
+      [
+        "18 - 24",
+        "Audience"
+      ],
+      [
+        "1.5M+",
+        "Weekly likes"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/amiolabooye/",
+      "tiktok": "https://www.tiktok.com/@aolabooye"
+    },
+    "image1": "assets/images/talent/ami-1.webp",
+    "image2": "assets/images/talent/ami-2.webp",
+    "rosterImage": "assets/images/talent/ami-roster.webp"
+  },
+  {
+    "name": "Billy",
+    "slug": "billy",
+    "category": "Fashion / Creator",
+    "bio": "Upcoming British content creator known for his unique twist on British and American fashion, and his signature full-fit content. Billy has partnered with brands including Unknown London, Moschino and Hugo Boss. His visual identity combines nostalgic UK and American references with a new streetwear perspective.",
+    "measurements": [
+      "19 years old",
+      "180cm height",
+      "63kg weight",
+      "32 waist",
+      "UK 7.5 shoes"
+    ],
+    "stats": [
+      [
+        "800K",
+        "Weekly views"
+      ],
+      [
+        "18 - 24",
+        "Audience"
+      ],
+      [
+        "31M",
+        "Total views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/billshudson/",
+      "tiktok": "https://www.tiktok.com/@hudson_billy"
+    },
+    "image1": "assets/images/talent/billy-1.webp",
+    "image2": "assets/images/talent/billy-2.webp"
+  },
+  {
+    "name": "Kershaw",
+    "slug": "kershaw",
+    "category": "Fashion / Creator",
+    "bio": "One of the fastest-growing content creators in the UK, known for his unapologetic short-form content and distinctive take on British fashion. Kershaw has partnered with brands including Natasha Zinko, i-D and Unknown London, building a highly engaged audience through a recognisable, nostalgic visual language.",
+    "measurements": [
+      "20 years old",
+      "175cm height",
+      "32 waist",
+      "UK 9 shoes"
+    ],
+    "stats": [
+      [
+        "5.5M",
+        "Weekly reach"
+      ],
+      [
+        "18 - 24",
+        "Audience"
+      ],
+      [
+        "45M",
+        "90-day views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/4_kershaw_/",
+      "tiktok": "https://www.tiktok.com/@4_kershaw_"
+    },
+    "image1": "assets/images/talent/kershaw-1.webp",
+    "image2": "assets/images/talent/kershaw-2.webp"
+  },
+  {
+    "name": "Antonio",
+    "slug": "antonio",
+    "category": "Fashion / Travel",
+    "bio": "London-based creator with a personal style that mixes streetwear and smartwear. Antonio regularly creates travel and lifestyle content and is building a growing YouTube audience. He has appeared in music videos and worked with brands including Unknown London, Rizla and Ragged Priest.",
+    "measurements": [
+      "27 years old",
+      "185cm height",
+      "80kg weight",
+      "33 waist",
+      "UK 10 shoes"
+    ],
+    "stats": [
+      [
+        "500K+",
+        "Weekly views"
+      ],
+      [
+        "18 - 35",
+        "Audience"
+      ],
+      [
+        "750K+",
+        "Monthly views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/antoniobelardo_/",
+      "tiktok": "https://www.tiktok.com/@antoniobelardo_"
+    },
+    "image1": "assets/images/talent/antonio-1.webp",
+    "image2": "assets/images/talent/antonio-2.webp"
+  },
+  {
+    "name": "Louis",
+    "slug": "louis",
+    "category": "Music / Fashion",
+    "bio": "Frontman of emerging rock band Burn, combining stage presence with a distinct and versatile aesthetic. Louis moves seamlessly from high-fashion tailoring to gorpcore layering, while Burn’s content continues to gain organic momentum with new audiences.",
+    "measurements": [
+      "182cm height",
+      "65kg weight",
+      "31 waist",
+      "UK 9 shoes"
+    ],
+    "stats": [
+      [
+        "BURN",
+        "Frontman"
+      ],
+      [
+        "UK",
+        "Based"
+      ],
+      [
+        "90s",
+        "Rock influence"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/lou10_h/"
+    },
+    "image1": "assets/images/talent/louis-1.webp",
+    "image2": "assets/images/talent/louis-2.webp"
+  },
+  {
+    "name": "LostBoys",
+    "slug": "lostboys",
+    "category": "Collective / Culture",
+    "bio": "Nottingham-based creative collective made up of Fez, Eddz, Mullz, Luke, S5, Ronin, Chef Dee and Marz. Built around fashion, music, events and content, the group has grown into a cultural movement with its own brand, community and highly recognisable identity. They have supported Dave on tour and worked with Nike, NOCTA, Adidas, Mizuno, One Block Down, C.P. Company, Jordan and Wingstop.",
+    "measurements": [
+      "Fez",
+      "Eddz",
+      "Mullz",
+      "Luke",
+      "S5",
+      "Ronin",
+      "Chef Dee",
+      "Marz"
+    ],
+    "stats": [
+      [
+        "500K+",
+        "Weekly views"
+      ],
+      [
+        "18 - 24",
+        "Audience"
+      ],
+      [
+        "1M+",
+        "Monthly views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/lostboyschannel/",
+      "tiktok": "https://www.tiktok.com/@lostboyschannel"
+    },
+    "image1": "assets/images/talent/lostboys-1.webp",
+    "image2": "assets/images/talent/lostboys-2.webp"
+  }
+]
