@@ -1,12 +1,9 @@
-ROOM NINE V5.10 PATCH
+ROOM NINE V5.11 PATCH
 
-1. Unzip this patch.
-2. Copy every file inside into your local GitHub Room-Nine repository folder.
-3. Choose Replace when macOS asks.
-4. In GitHub Desktop, commit with: Fix mobile arrows and talent heading
-5. Push origin. Vercel will redeploy automatically.
+Fixes the oversized mobile call-to-action headings that overflowed off-screen,
+including "LET'S MAKE SOMETHING REAL." and "START A CONVERSATION."
 
-Changes:
-- Clean CSS-drawn arrows on mobile (no blue emoji arrows)
-- Talent hero title resized to fit mobile screens
-- Removed the green-outfit performer hero image; the other two now rotate
+1. Copy styles.css into your local Room-Nine GitHub folder.
+2. Choose Replace when prompted.
+3. In GitHub Desktop, commit with: Fix mobile CTA headings
+4. Push origin. Vercel will deploy automatically.

@@ -766,3 +766,48 @@ body.menu-open{overflow:hidden}
     line-height:1.35;
   }
 }
+
+/* V5.11: mobile CTA containment and fit.
+   Keeps large red call-to-action panels inside the viewport on iOS Safari. */
+html,
+body{
+  max-width:100%;
+  overflow-x:hidden;
+}
+@supports (overflow:clip){
+  html,
+  body{overflow-x:clip}
+}
+.big-cta{
+  width:100%;
+  max-width:100%;
+  min-width:0;
+  overflow:hidden;
+}
+.big-cta h2,
+.big-cta-bottom{
+  width:100%;
+  max-width:100%;
+  min-width:0;
+}
+
+@media(max-width:640px){
+  .big-cta{
+    min-height:68svh;
+    padding-left:var(--pad);
+    padding-right:var(--pad);
+  }
+  .big-cta h2{
+    font-size:clamp(36px,11vw,48px);
+    line-height:.84;
+    letter-spacing:-.07em;
+    margin:24px 0 34px;
+    white-space:normal;
+    overflow-wrap:normal;
+    word-break:normal;
+    text-wrap:balance;
+  }
+  .big-cta-bottom{
+    overflow-wrap:anywhere;
+  }
+}
