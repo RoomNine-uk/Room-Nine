@@ -1,9 +1,11 @@
-ROOM NINE V5.11 PATCH
+ROOM NINE V5.12 PATCH
 
-Fixes the oversized mobile call-to-action headings that overflowed off-screen,
-including "LET'S MAKE SOMETHING REAL." and "START A CONVERSATION."
+Mobile refinements:
+- Makes the red call-to-action headings larger again while keeping them on-screen.
+- Fits the full “WE REPRESENT” talent heading on mobile.
+- Aligns 13+, £500K and the other first-column metrics to the same left edge.
 
 1. Copy styles.css into your local Room-Nine GitHub folder.
 2. Choose Replace when prompted.
-3. In GitHub Desktop, commit with: Fix mobile CTA headings
+3. Commit in GitHub Desktop with: Refine mobile headings and metric alignment
 4. Push origin. Vercel will deploy automatically.

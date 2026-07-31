@@ -811,3 +811,44 @@ body{
     overflow-wrap:anywhere;
   }
 }
+
+/* V5.12: mobile type scale and metric alignment refinements. */
+@media(max-width:640px){
+  /* Restore the large editorial impact of the red CTA headings while keeping
+     every line inside the mobile viewport. */
+  .big-cta h2{
+    font-size:clamp(54px,15.5vw,64px);
+    line-height:.82;
+    letter-spacing:-.075em;
+    margin:24px 0 34px;
+    text-wrap:balance;
+  }
+
+  /* The main talent enquiry uses shorter words, so it can carry more scale. */
+  #talent.big-cta h2{
+    font-size:clamp(60px,17vw,72px);
+    line-height:.81;
+  }
+
+  /* Individual talent pages contain the longer word “conversation”. Keep it
+     as large as possible without allowing horizontal overflow. */
+  .profile-data + .big-cta h2{
+    font-size:clamp(44px,11.7vw,46px);
+    line-height:.84;
+    letter-spacing:-.075em;
+  }
+
+  /* Fit “WE REPRESENT” as one complete line on common iPhone widths. */
+  .talent-list-hero h1{
+    font-size:clamp(46px,13vw,51px);
+    line-height:.83;
+    letter-spacing:-.065em;
+    white-space:nowrap;
+  }
+
+  /* Align every first-column metric, including 13+ and £500K, to the same
+     left edge as the first 13 figure. */
+  .metrics .metric:nth-child(odd){
+    padding-left:0;
+  }
+}
