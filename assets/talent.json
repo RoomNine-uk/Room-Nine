@@ -1,5 +1,174 @@
 [
   {
+    "name": "LostBoys",
+    "slug": "lostboys",
+    "category": "Collective / Culture",
+    "bio": "Nottingham-based creative collective made up of Fez, Eddz, Mullz, Luke, S5, Ronin, Chef Dee and Marz. Built around fashion, music, events and content, the group has grown into a cultural movement with its own brand, community and highly recognisable identity. They have supported Dave on tour and worked with Nike, NOCTA, Adidas, Mizuno, One Block Down, C.P. Company, Jordan and Wingstop.",
+    "measurements": [
+      "Fez",
+      "Eddz",
+      "Mullz",
+      "Luke",
+      "S5",
+      "Ronin",
+      "Chef Dee",
+      "Marz"
+    ],
+    "stats": [
+      [
+        "500K+",
+        "Weekly views"
+      ],
+      [
+        "18 - 24",
+        "Audience"
+      ],
+      [
+        "1M+",
+        "Monthly views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/lostboyschannel/",
+      "tiktok": "https://www.tiktok.com/@lostboyschannel"
+    },
+    "image1": "assets/images/talent/lostboys-1.webp",
+    "image2": "assets/images/talent/lostboys-2.webp"
+  },
+  {
+    "name": "Kershaw",
+    "slug": "kershaw",
+    "category": "Fashion / Creator",
+    "bio": "One of the fastest-growing content creators in the UK, known for his unapologetic short-form content and distinctive take on British fashion. Kershaw has partnered with brands including Natasha Zinko, i-D and Unknown London, building a highly engaged audience through a recognisable, nostalgic visual language.",
+    "measurements": [
+      "20 years old",
+      "175cm height",
+      "32 waist",
+      "UK 9 shoes"
+    ],
+    "stats": [
+      [
+        "5.5M",
+        "Weekly reach"
+      ],
+      [
+        "18 - 24",
+        "Audience"
+      ],
+      [
+        "45M",
+        "90-day views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/4_kershaw_/",
+      "tiktok": "https://www.tiktok.com/@4_kershaw_"
+    },
+    "image1": "assets/images/talent/kershaw-1.webp",
+    "image2": "assets/images/talent/kershaw-2.webp"
+  },
+  {
+    "name": "Rubi",
+    "slug": "rubi",
+    "category": "Fashion / Creator",
+    "bio": "British creator recognised for her individual take on streetwear and high fashion. Rubi has partnered with Nike, Celine, Tommy Hilfiger and Adidas, adapting nostalgic UK and American references into a versatile and highly recognisable look.",
+    "measurements": [
+      "21 years old",
+      "5'7 height",
+      "32 bust",
+      "24 waist",
+      "UK 6 shoes"
+    ],
+    "stats": [
+      [
+        "7M+",
+        "90-day views"
+      ],
+      [
+        "18 - 25",
+        "Female audience"
+      ],
+      [
+        "260K+",
+        "90-day likes"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/rubeswardd/",
+      "tiktok": "https://www.tiktok.com/@wtfbruh1111111"
+    },
+    "image1": "assets/images/talent/rubi-1.webp",
+    "image2": "assets/images/talent/rubi-2.webp",
+    "rosterImage": "assets/images/talent/rubi-roster.webp"
+  },
+  {
+    "name": "Travy",
+    "slug": "travy",
+    "category": "Artist / Culture",
+    "bio": "Irish rapper and artist helping push a new wave of Irish music and underground culture. A member of Gliders, Travy moves across rap, dance-led music, clothing, art, events and community, with co-signs from Fred again.. and Interplanetary Criminal and previous work with Unknown London, GAP and Adidas.",
+    "measurements": [
+      "27 years old",
+      "195cm height",
+      "32 - 34 waist",
+      "UK 11 shoes"
+    ],
+    "stats": [
+      [
+        "600K+",
+        "Monthly views"
+      ],
+      [
+        "18 - 30",
+        "Audience"
+      ],
+      [
+        "70K+",
+        "Monthly listeners"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/travystop/",
+      "tiktok": "https://www.tiktok.com/@cellularbandit"
+    },
+    "image1": "assets/images/talent/travy-1.webp",
+    "image2": "assets/images/talent/travy-2.webp",
+    "rosterImage": "assets/images/talent/travy-roster.webp"
+  },
+  {
+    "name": "Nori",
+    "slug": "nori",
+    "category": "Music / Creator",
+    "bio": "British artist, producer and DJ known for breakthrough single ‘i_aint_fly (G6)’, recently co-signed by Fred again.. at his New York show. Nori combines music, production, DJing and content with intentional nostalgic UK references.",
+    "measurements": [
+      "23 years old",
+      "188cm height",
+      "80kg weight",
+      "32 waist",
+      "UK 11 shoes"
+    ],
+    "stats": [
+      [
+        "1M+",
+        "Weekly views"
+      ],
+      [
+        "18 - 30",
+        "Audience"
+      ],
+      [
+        "80K",
+        "Spotify monthly"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/whosnori/",
+      "tiktok": "https://www.tiktok.com/@nevrnori"
+    },
+    "image1": "assets/images/talent/nori-1.webp",
+    "image2": "assets/images/talent/nori-2.webp",
+    "rosterImage": "assets/images/talent/nori-roster.webp"
+  },
+  {
     "name": "Storm",
     "slug": "storm",
     "category": "Skate / Streetwear",
@@ -132,73 +301,6 @@
     "rosterImage": "assets/images/talent/lozeak-roster.webp"
   },
   {
-    "name": "Lili",
-    "slug": "lili",
-    "category": "Fashion / Lifestyle",
-    "bio": "Fashion and lifestyle creator and tattoo artist with a distinct visual identity. Lili’s content feels natural and relatable, giving fashion and lifestyle campaigns a fresh perspective across both high fashion and streetwear.",
-    "measurements": [
-      "21 years old",
-      "172cm height",
-      "28 waist",
-      "UK 6 shoes"
-    ],
-    "stats": [
-      [
-        "1.5M+",
-        "90-day views"
-      ],
-      [
-        "18 - 25",
-        "Audience"
-      ],
-      [
-        "45K+",
-        "Followers"
-      ]
-    ],
-    "links": {
-      "instagram": "https://www.instagram.com/lilizaap/",
-      "tiktok": "https://www.tiktok.com/@lilizaap"
-    },
-    "image1": "assets/images/talent/lili-1.webp",
-    "image2": "assets/images/talent/lili-2.webp",
-    "rosterImage": "assets/images/talent/lili-roster.webp"
-  },
-  {
-    "name": "Nori",
-    "slug": "nori",
-    "category": "Music / Creator",
-    "bio": "British artist, producer and DJ known for breakthrough single ‘i_aint_fly (G6)’, recently co-signed by Fred again.. at his New York show. Nori combines music, production, DJing and content with intentional nostalgic UK references.",
-    "measurements": [
-      "23 years old",
-      "188cm height",
-      "80kg weight",
-      "32 waist",
-      "UK 11 shoes"
-    ],
-    "stats": [
-      [
-        "1M+",
-        "Weekly views"
-      ],
-      [
-        "18 - 30",
-        "Audience"
-      ],
-      [
-        "80K",
-        "Spotify monthly"
-      ]
-    ],
-    "links": {
-      "instagram": "https://www.instagram.com/whosnori/",
-      "tiktok": "https://www.tiktok.com/@nevrnori"
-    },
-    "image1": "assets/images/talent/nori-1.webp",
-    "image2": "assets/images/talent/nori-2.webp",
-    "rosterImage": "assets/images/talent/nori-roster.webp"
-  },
-  {
     "name": "Juveniall",
     "slug": "juveniall",
     "category": "Artist / Music",
@@ -265,39 +367,6 @@
     "rosterImage": "assets/images/talent/miss-smallz-roster.webp"
   },
   {
-    "name": "Travy",
-    "slug": "travy",
-    "category": "Artist / Culture",
-    "bio": "Irish rapper and artist helping push a new wave of Irish music and underground culture. A member of Gliders, Travy moves across rap, dance-led music, clothing, art, events and community, with co-signs from Fred again.. and Interplanetary Criminal and previous work with Unknown London, GAP and Adidas.",
-    "measurements": [
-      "27 years old",
-      "195cm height",
-      "32 - 34 waist",
-      "UK 11 shoes"
-    ],
-    "stats": [
-      [
-        "600K+",
-        "Monthly views"
-      ],
-      [
-        "18 - 30",
-        "Audience"
-      ],
-      [
-        "70K+",
-        "Monthly listeners"
-      ]
-    ],
-    "links": {
-      "instagram": "https://www.instagram.com/travystop/",
-      "tiktok": "https://www.tiktok.com/@cellularbandit"
-    },
-    "image1": "assets/images/talent/travy-1.webp",
-    "image2": "assets/images/talent/travy-2.webp",
-    "rosterImage": "assets/images/talent/travy-roster.webp"
-  },
-  {
     "name": "Dex",
     "slug": "dex",
     "category": "Fashion / Creator",
@@ -330,40 +399,6 @@
     "image1": "assets/images/talent/dex-1.webp",
     "image2": "assets/images/talent/dex-2.webp",
     "rosterImage": "assets/images/talent/dex-roster.webp"
-  },
-  {
-    "name": "Rubi",
-    "slug": "rubi",
-    "category": "Fashion / Creator",
-    "bio": "British creator recognised for her individual take on streetwear and high fashion. Rubi has partnered with Nike, Celine, Tommy Hilfiger and Adidas, adapting nostalgic UK and American references into a versatile and highly recognisable look.",
-    "measurements": [
-      "21 years old",
-      "5'7 height",
-      "32 bust",
-      "24 waist",
-      "UK 6 shoes"
-    ],
-    "stats": [
-      [
-        "7M+",
-        "90-day views"
-      ],
-      [
-        "18 - 25",
-        "Female audience"
-      ],
-      [
-        "260K+",
-        "90-day likes"
-      ]
-    ],
-    "links": {
-      "instagram": "https://www.instagram.com/rubeswardd/",
-      "tiktok": "https://www.tiktok.com/@wtfbruh1111111"
-    },
-    "image1": "assets/images/talent/rubi-1.webp",
-    "image2": "assets/images/talent/rubi-2.webp",
-    "rosterImage": "assets/images/talent/rubi-roster.webp"
   },
   {
     "name": "Hayb",
@@ -466,38 +501,6 @@
     "image2": "assets/images/talent/billy-2.webp"
   },
   {
-    "name": "Kershaw",
-    "slug": "kershaw",
-    "category": "Fashion / Creator",
-    "bio": "One of the fastest-growing content creators in the UK, known for his unapologetic short-form content and distinctive take on British fashion. Kershaw has partnered with brands including Natasha Zinko, i-D and Unknown London, building a highly engaged audience through a recognisable, nostalgic visual language.",
-    "measurements": [
-      "20 years old",
-      "175cm height",
-      "32 waist",
-      "UK 9 shoes"
-    ],
-    "stats": [
-      [
-        "5.5M",
-        "Weekly reach"
-      ],
-      [
-        "18 - 24",
-        "Audience"
-      ],
-      [
-        "45M",
-        "90-day views"
-      ]
-    ],
-    "links": {
-      "instagram": "https://www.instagram.com/4_kershaw_/",
-      "tiktok": "https://www.tiktok.com/@4_kershaw_"
-    },
-    "image1": "assets/images/talent/kershaw-1.webp",
-    "image2": "assets/images/talent/kershaw-2.webp"
-  },
-  {
     "name": "Antonio",
     "slug": "antonio",
     "category": "Fashion / Travel",
@@ -562,39 +565,36 @@
     "image2": "assets/images/talent/louis-2.webp"
   },
   {
-    "name": "LostBoys",
-    "slug": "lostboys",
-    "category": "Collective / Culture",
-    "bio": "Nottingham-based creative collective made up of Fez, Eddz, Mullz, Luke, S5, Ronin, Chef Dee and Marz. Built around fashion, music, events and content, the group has grown into a cultural movement with its own brand, community and highly recognisable identity. They have supported Dave on tour and worked with Nike, NOCTA, Adidas, Mizuno, One Block Down, C.P. Company, Jordan and Wingstop.",
+    "name": "Lili",
+    "slug": "lili",
+    "category": "Fashion / Lifestyle",
+    "bio": "Fashion and lifestyle creator and tattoo artist with a distinct visual identity. Lili’s content feels natural and relatable, giving fashion and lifestyle campaigns a fresh perspective across both high fashion and streetwear.",
     "measurements": [
-      "Fez",
-      "Eddz",
-      "Mullz",
-      "Luke",
-      "S5",
-      "Ronin",
-      "Chef Dee",
-      "Marz"
+      "21 years old",
+      "172cm height",
+      "28 waist",
+      "UK 6 shoes"
     ],
     "stats": [
       [
-        "500K+",
-        "Weekly views"
+        "1.5M+",
+        "90-day views"
       ],
       [
-        "18 - 24",
+        "18 - 25",
         "Audience"
       ],
       [
-        "1M+",
-        "Monthly views"
+        "45K+",
+        "Followers"
       ]
     ],
     "links": {
-      "instagram": "https://www.instagram.com/lostboyschannel/",
-      "tiktok": "https://www.tiktok.com/@lostboyschannel"
+      "instagram": "https://www.instagram.com/lilizaap/",
+      "tiktok": "https://www.tiktok.com/@lilizaap"
     },
-    "image1": "assets/images/talent/lostboys-1.webp",
-    "image2": "assets/images/talent/lostboys-2.webp"
+    "image1": "assets/images/talent/lili-1.webp",
+    "image2": "assets/images/talent/lili-2.webp",
+    "rosterImage": "assets/images/talent/lili-roster.webp"
   }
 ]
