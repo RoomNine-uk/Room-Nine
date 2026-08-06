@@ -1,5 +1,38 @@
 [
   {
+    "name": "Storm",
+    "slug": "storm",
+    "category": "Skate / Streetwear",
+    "bio": "Storm is a 23-year-old UK skater and a recognisable figure in the streetwear scene. Known for his tattooed look, comedic reels and skate content, he regularly reaches more than one million monthly views and has worked with Nike, JD Sports, Slawn and Unknown London. Storm brings a genuinely distinctive presence to fashion, lifestyle and culture campaigns.",
+    "measurements": [
+      "23 years old",
+      "172cm height",
+      "30 waist",
+      "UK 7 shoes"
+    ],
+    "stats": [
+      [
+        "130K",
+        "Followers"
+      ],
+      [
+        "18 - 25",
+        "Audience"
+      ],
+      [
+        "1M+",
+        "Monthly views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/stormmccormickk/reels/",
+      "tiktok": "https://www.tiktok.com/@stormmccormick"
+    },
+    "image1": "assets/images/talent/storm-1.webp",
+    "image2": "assets/images/talent/storm-2.webp",
+    "rosterImage": "assets/images/talent/storm-roster.webp"
+  },
+  {
     "name": "Benty",
     "slug": "benty",
     "category": "Artist / Music",
