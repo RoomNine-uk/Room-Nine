@@ -301,6 +301,35 @@
     "rosterImage": "assets/images/talent/lozeak-roster.webp"
   },
   {
+    "name": "DESIRES",
+    "slug": "desires",
+    "category": "Social / Creator",
+    "bio": "",
+    "measurements": [],
+    "stats": [
+      [
+        "180K",
+        "Total followers"
+      ],
+      [
+        "8.4M",
+        "90-day TikTok views"
+      ],
+      [
+        "3.6M",
+        "90-day Instagram views"
+      ]
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/desiiresss/",
+      "tiktok": "https://www.tiktok.com/@desiiresss"
+    },
+    "image1": "assets/images/talent/profile/desires-1.webp",
+    "image2": "assets/images/talent/profile/desires-2.webp",
+    "image3": "assets/images/talent/profile/desires-3.webp",
+    "rosterImage": "assets/images/talent/desires-roster.webp"
+  },
+  {
     "name": "Juveniall",
     "slug": "juveniall",
     "category": "Artist / Music",

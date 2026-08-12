@@ -852,3 +852,27 @@ body{
     padding-left:0;
   }
 }
+
+/* DESIRES profile: preserve the supplied portrait order after the hero image. */
+.profile-photo-sequence{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+  padding-top:clamp(60px,8vw,120px);
+}
+.profile-photo-sequence .profile-secondary-image{
+  max-height:none;
+}
+.profile-photo-sequence .profile-secondary-image img{
+  display:block;
+  width:100%;
+  height:auto;
+  min-height:0;
+  aspect-ratio:3 / 4;
+  object-fit:cover;
+}
+@media(max-width:640px){
+  .profile-photo-sequence{
+    grid-template-columns:1fr;
+  }
+}
