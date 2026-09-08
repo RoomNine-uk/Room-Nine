@@ -26,6 +26,19 @@
   object-position:center center;
 }
 
+/* At normal desktop zoom, every talent name should stay on one clean line.
+   The longest names determine the scale, so shorter names still retain impact. */
+@media(min-width:981px){
+  .profile-hero-copy h1{
+    font-size:clamp(58px,5.8vw,118px);
+    line-height:.82;
+    white-space:nowrap;
+    overflow-wrap:normal;
+    word-break:normal;
+    letter-spacing:-.07em;
+  }
+}
+
 @media(max-width:640px){
   .profile-secondary-image img,
   .profile-photo-sequence .profile-secondary-image img{
