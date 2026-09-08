@@ -39,10 +39,24 @@
   }
 }
 
+/* Talent profile booking CTA: keep both lines fully inside the viewport.
+   The base headline was capped too large, which made CONVERSATION overflow. */
+.profile-data + .big-cta h2{
+  max-width:100%;
+  font-size:clamp(44px,10.2vw,160px);
+  line-height:.82;
+  letter-spacing:-.07em;
+}
+
 @media(max-width:640px){
   .profile-secondary-image img,
   .profile-photo-sequence .profile-secondary-image img{
     min-height:0;
     height:auto;
+  }
+  .profile-data + .big-cta h2{
+    font-size:10vw;
+    line-height:.84;
+    letter-spacing:-.065em;
   }
 }
