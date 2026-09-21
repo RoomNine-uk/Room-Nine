@@ -625,5 +625,39 @@
     "image1": "assets/images/talent/lili-1.webp",
     "image2": "assets/images/talent/lili-2.webp",
     "rosterImage": "assets/images/talent/lili-roster.webp"
+  },
+  {
+    "name": "Saint Ludo",
+    "slug": "saint-ludo",
+    "category": "DJ / Producer",
+    "bio": "Saint Ludo is a London-based DJ and producer bringing a high-energy, vocal-led approach to UK bass. Her sets move through UKG, jungle, grime and rap-influenced club music, building a reputation for fast, unpredictable performances and serious dancefloor energy. A Rinse FM resident, she has performed at Glastonbury and Reading & Leeds, shared stages with Nia Archives and Overmono, and is expanding internationally with US dates supporting Sammy Virji. Her breakout single Subliminals featuring Kasst 8 picked up support across BBC Radio 1, 1Xtra and Apple Music 1, alongside a co-sign from Skrillex. She is currently building towards her debut EP in 2026.",
+    "measurements": [
+      "175cm height",
+      "28 waist",
+      "UK 6.5 shoes",
+      "18 - 24 audience: F 23% / M 29%",
+      "25 - 34 audience: F 13% / M 24%",
+      "91K+ Instagram likes / 90 days",
+      "187K+ TikTok likes / 90 days"
+    ],
+    "stats": [
+      [
+        "2.3M+",
+        "90-day Instagram views"
+      ],
+      [
+        "2.2M+",
+        "90-day TikTok views"
+      ],
+      [
+        "213K+",
+        "Monthly listeners"
+      ]
+    ],
+    "links": {},
+    "image1": "assets/images/talent/profile/saint-ludo-1.webp",
+    "image2": "assets/images/talent/profile/saint-ludo-2.webp",
+    "image3": "assets/images/talent/profile/saint-ludo-3.webp",
+    "rosterImage": "assets/images/talent/saint-ludo-roster.webp"
   }
 ]
