@@ -1,4 +1,197 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/talent-lostboys",
+      "destination": "/lostboys",
+      "permanent": true
+    },
+    {
+      "source": "/talent-kershaw",
+      "destination": "/kershaw",
+      "permanent": true
+    },
+    {
+      "source": "/talent-rubi",
+      "destination": "/rubi",
+      "permanent": true
+    },
+    {
+      "source": "/talent-travy",
+      "destination": "/travy",
+      "permanent": true
+    },
+    {
+      "source": "/talent-nori",
+      "destination": "/nori",
+      "permanent": true
+    },
+    {
+      "source": "/talent-storm",
+      "destination": "/storm",
+      "permanent": true
+    },
+    {
+      "source": "/talent-benty",
+      "destination": "/benty",
+      "permanent": true
+    },
+    {
+      "source": "/talent-eddz",
+      "destination": "/eddz",
+      "permanent": true
+    },
+    {
+      "source": "/talent-lozeak",
+      "destination": "/lozeak",
+      "permanent": true
+    },
+    {
+      "source": "/talent-yuqt",
+      "destination": "/yuqt",
+      "permanent": true
+    },
+    {
+      "source": "/talent-saint-ludo",
+      "destination": "/saintludo",
+      "permanent": true
+    },
+    {
+      "source": "/talent-desires",
+      "destination": "/desires",
+      "permanent": true
+    },
+    {
+      "source": "/talent-juveniall",
+      "destination": "/juveniall",
+      "permanent": true
+    },
+    {
+      "source": "/talent-miss-smallz",
+      "destination": "/misssmallz",
+      "permanent": true
+    },
+    {
+      "source": "/talent-dex",
+      "destination": "/dex",
+      "permanent": true
+    },
+    {
+      "source": "/talent-hayb",
+      "destination": "/hayb",
+      "permanent": true
+    },
+    {
+      "source": "/talent-ami",
+      "destination": "/ami",
+      "permanent": true
+    },
+    {
+      "source": "/talent-billy",
+      "destination": "/billy",
+      "permanent": true
+    },
+    {
+      "source": "/talent-antonio",
+      "destination": "/antonio",
+      "permanent": true
+    },
+    {
+      "source": "/talent-louis",
+      "destination": "/louis",
+      "permanent": true
+    },
+    {
+      "source": "/talent-lili",
+      "destination": "/lili",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/lostboys",
+      "destination": "/talent-lostboys.html"
+    },
+    {
+      "source": "/kershaw",
+      "destination": "/talent-kershaw.html"
+    },
+    {
+      "source": "/rubi",
+      "destination": "/talent-rubi.html"
+    },
+    {
+      "source": "/travy",
+      "destination": "/talent-travy.html"
+    },
+    {
+      "source": "/nori",
+      "destination": "/talent-nori.html"
+    },
+    {
+      "source": "/storm",
+      "destination": "/talent-storm.html"
+    },
+    {
+      "source": "/benty",
+      "destination": "/talent-benty.html"
+    },
+    {
+      "source": "/eddz",
+      "destination": "/talent-eddz.html"
+    },
+    {
+      "source": "/lozeak",
+      "destination": "/talent-lozeak.html"
+    },
+    {
+      "source": "/yuqt",
+      "destination": "/talent-yuqt.html"
+    },
+    {
+      "source": "/saintludo",
+      "destination": "/talent-saint-ludo.html"
+    },
+    {
+      "source": "/desires",
+      "destination": "/talent-desires.html"
+    },
+    {
+      "source": "/juveniall",
+      "destination": "/talent-juveniall.html"
+    },
+    {
+      "source": "/misssmallz",
+      "destination": "/talent-miss-smallz.html"
+    },
+    {
+      "source": "/dex",
+      "destination": "/talent-dex.html"
+    },
+    {
+      "source": "/hayb",
+      "destination": "/talent-hayb.html"
+    },
+    {
+      "source": "/ami",
+      "destination": "/talent-ami.html"
+    },
+    {
+      "source": "/billy",
+      "destination": "/talent-billy.html"
+    },
+    {
+      "source": "/antonio",
+      "destination": "/talent-antonio.html"
+    },
+    {
+      "source": "/louis",
+      "destination": "/talent-louis.html"
+    },
+    {
+      "source": "/lili",
+      "destination": "/talent-lili.html"
+    }
+  ]
 }
