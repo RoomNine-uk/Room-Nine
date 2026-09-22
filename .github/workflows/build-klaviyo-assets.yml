@@ -75,3 +75,4 @@ jobs:
           path: email-assets-outlook/
           if-no-files-found: error
           retention-days: 1
+
