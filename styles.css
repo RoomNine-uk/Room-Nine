@@ -60,3 +60,21 @@
     letter-spacing:-.065em;
   }
 }
+
+
+/* Talent profile desktop vertical balance: keep the back link at the top,
+   while bringing the name and bio into the middle of the page. */
+@media(min-width:981px){
+  .profile-hero-copy{
+    position:relative;
+    justify-content:center;
+    padding-top:110px;
+    padding-bottom:70px;
+  }
+  .profile-back{
+    position:absolute;
+    top:30px;
+    left:var(--pad);
+    margin:0;
+  }
+}
