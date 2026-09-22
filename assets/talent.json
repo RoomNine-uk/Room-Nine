@@ -654,7 +654,10 @@
         "Monthly listeners"
       ]
     ],
-    "links": {},
+    "links": {
+      "instagram": "https://www.instagram.com/saintludo?stkn=MTNsZnJybXh5czlnag==",
+      "tiktok": "https://www.tiktok.com/@saintludo?_r=1&_t=ZG-99wYpzZxjzk"
+    },
     "image1": "assets/images/talent/profile/saint-ludo-1.jpeg",
     "image2": "assets/images/talent/profile/saint-ludo-2.png",
     "image3": "assets/images/talent/profile/saint-ludo-3.jpg",
