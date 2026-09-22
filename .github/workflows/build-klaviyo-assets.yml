@@ -1,0 +1,77 @@
+name: Build Klaviyo Outlook Assets
+
+on:
+  push:
+    branches:
+      - chatgpt-klaviyo-outlook-assets
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install image tooling
+        run: python -m pip install --disable-pip-version-check pillow pillow-avif-plugin
+
+      - name: Convert artist images to email-safe JPEG
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageOps
+          import pillow_avif  # noqa: F401
+          import shutil
+
+          out = Path("email-assets-outlook")
+          out.mkdir(exist_ok=True)
+
+          # Pair-specific ratios used by the final 2-column email layout.
+          specs = {
+              "nori": ("assets/images/talent/nori-roster.webp", 292, 440),
+              "travy": ("assets/images/talent/travy-roster.webp", 292, 440),
+              "yuqt": ("assets/images/talent/yuqt-roster.avif", 292, 379),
+              "lostboys": ("assets/images/talent/lostboys-1.webp", 292, 379),
+              "lozeak": ("assets/images/talent/lozeak-roster.webp", 292, 390),
+              "benty": ("assets/images/talent/benty-roster.webp", 292, 390),
+              "juveniall": ("assets/images/talent/juveniall-roster.webp", 292, 389),
+              "louis": ("assets/images/talent/louis-1.webp", 292, 389),
+          }
+
+          target_w = 1208  # 2x the 604px stacked mobile width
+          for name, (src, display_w, display_h) in specs.items():
+              target_h = round(target_w * display_h / display_w)
+              im = Image.open(src).convert("RGB")
+              fitted = ImageOps.fit(
+                  im,
+                  (target_w, target_h),
+                  method=Image.Resampling.LANCZOS,
+                  centering=(0.5, 0.5),
+              )
+              fitted.save(
+                  out / f"{name}.jpg",
+                  "JPEG",
+                  quality=86,
+                  optimize=True,
+                  progressive=False,
+                  subsampling=1,
+              )
+
+          shutil.copy2("assets/images/room-nine-logo-black.png", out / "room-nine-logo-black.png")
+          shutil.copy2("assets/images/room-nine-logo-white.png", out / "room-nine-logo-white.png")
+          PY
+
+      - name: List outputs
+        run: ls -lh email-assets-outlook
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: klaviyo-outlook-assets
+          path: email-assets-outlook/
+          if-no-files-found: error
+          retention-days: 1
