@@ -1300,15 +1300,6 @@ $$('[data-talent-filter]').forEach(btn=>btn.addEventListener('click',()=>{
   if (location.hash === '#talent') document.querySelector('.form-tab[data-target="talent-form"]')?.click();
 })();
 </script><script>
- document.addEventListener('click',e=>{
-  const a=e.target.closest('a'); if(!a||e.defaultPrevented)return;
-  const h=a.getAttribute('href');if(!h)return;
-  if(h.startsWith('#')) {const el=document.getElementById(h.slice(1));if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});}return;}
-  if(/^[a-z0-9-]+\.html(?:#.*)?$/i.test(h)){e.preventDefault();parent.postMessage({roomNineRoute:h},'*');}
- });
- addEventListener('message',e=>{if(e.source!==parent||!e.data.previewHash)return;const h=e.data.previewHash.slice(1);if(typeof modalData!=='undefined' && modalData[h])openModal(h);if(h==='talent')document.querySelector('[data-target="talent-form"]')?.click();});
- parent.postMessage({roomNineReady:true},'*');
- 
 
 ;(() => {
  const toggles=[...document.querySelectorAll('.menu-toggle,.opening-menu-toggle')], menu=document.querySelector('.mobile-menu');
@@ -1322,9 +1313,5 @@ $$('[data-talent-filter]').forEach(btn=>btn.addEventListener('click',()=>{
  const projectModal=document.querySelector('.modal');if(projectModal){let returnTo=null;document.querySelectorAll('[data-project]').forEach(card=>card.addEventListener('click',()=>{returnTo=card}));new MutationObserver(()=>{if(projectModal.classList.contains('open'))projectModal.querySelector('.modal-close')?.focus();else if(returnTo){returnTo.focus();returnTo=null}}).observe(projectModal,{attributes:true,attributeFilter:['class']})}
  document.querySelectorAll('img:not([loading])').forEach(img=>{if(!img.closest('.pillar-opening,.page-hero,.profile-hero,.site-header,.pillar-masthead,.page-loader'))img.loading='lazy'});
  const loader=document.querySelector('.page-loader');try{if(loader && sessionStorage.getItem('rn-test-loaded')){loader.classList.add('is-gone');loader.style.display='none'}else if(loader)sessionStorage.setItem('rn-test-loaded','yes')}catch(_e){}
- document.querySelectorAll('.mailto-form').forEach(form=>{
-  form.setAttribute('novalidate','');const status=document.createElement('p');status.className='form-state';status.setAttribute('role','status');status.setAttribute('aria-live','polite');form.append(status);
-  form.addEventListener('submit',e=>{e.preventDefault();e.stopImmediatePropagation();const btn=form.querySelector('.form-submit');if(!form.checkValidity()){status.dataset.state='error';status.textContent='Please complete the required fields and enter a valid email.';form.querySelector(':invalid')?.focus();return}btn.disabled=true;btn.textContent='Sending…';status.dataset.state='sending';status.textContent='Preparing your enquiry in the test preview…';setTimeout(()=>{btn.disabled=false;btn.textContent='Submit another enquiry ↗';status.dataset.state='success';status.textContent='Preview complete. No enquiry was sent.'},550)},true);
- });
 })();
 </script></body></html>
