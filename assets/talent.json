@@ -667,7 +667,7 @@
     "name": "TED",
     "slug": "ted",
     "category": "Fashion / Creator",
-    "bio": "TED is a fashion creator with 27K followers and more than 705K views over the last 90 days. 60.9% of views came from non-followers.",
+    "bio": "London based fashion creator with experience across styling, modelling, casting, marketing and creative direction. TED began working in the industry at 14 and has since built a broad understanding of fashion from both in front of and behind the camera.\n\nAlongside building his own clothing brand, Track Mafia, he has increasingly focused on content creation and developing social concepts for brands.\n\nPrevious work includes Nike, JD, Umbro, Syna, Pastdown, Trapstar, Unknown London and Mertra.",
     "measurements": [
       "5'10 height",
       "Small / Medium top",
@@ -682,16 +682,12 @@
       [
         "705K+",
         "90-day views"
-      ],
-      [
-        "60.9%",
-        "Non-follower views"
       ]
     ],
     "links": {},
-    "image1": "assets/images/talent/profile/ted-1.webp",
-    "image2": "assets/images/talent/profile/ted-2.webp",
+    "image1": "assets/images/talent/profile/ted-2.webp",
+    "image2": "assets/images/talent/profile/ted-1.webp",
     "image3": "assets/images/talent/profile/ted-3.webp",
-    "rosterImage": "assets/images/talent/profile/ted-1.webp"
+    "rosterImage": "assets/images/talent/profile/ted-2.webp"
   }
 ]
