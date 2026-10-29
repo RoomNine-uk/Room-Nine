@@ -662,5 +662,35 @@
     "image2": "assets/images/talent/profile/saint-ludo-2.png",
     "image3": "assets/images/talent/profile/saint-ludo-3.jpg",
     "rosterImage": "assets/images/talent/profile/saint-ludo-1.jpeg"
+  },
+  {
+    "name": "TED",
+    "slug": "ted",
+    "category": "Fashion / Creator",
+    "bio": "TED is a fashion creator with 27K followers and more than 705K views over the last 90 days. 60.9% of views came from non-followers.",
+    "measurements": [
+      "5'10 height",
+      "Small / Medium top",
+      "Medium / Large bottoms",
+      "UK 8 shoes"
+    ],
+    "stats": [
+      [
+        "27K",
+        "Followers"
+      ],
+      [
+        "705K+",
+        "90-day views"
+      ],
+      [
+        "60.9%",
+        "Non-follower views"
+      ]
+    ],
+    "links": {},
+    "image1": "assets/images/talent/profile/ted-placeholder.svg",
+    "image2": "assets/images/talent/profile/ted-placeholder.svg",
+    "rosterImage": "assets/images/talent/profile/ted-placeholder.svg"
   }
 ]
