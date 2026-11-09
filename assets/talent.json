@@ -684,7 +684,10 @@
         "90-day views"
       ]
     ],
-    "links": {},
+    "links": {
+      "instagram": "https://www.instagram.com/22ted_/",
+      "tiktok": "https://www.tiktok.com/@22tedd"
+    },
     "image1": "assets/images/talent/profile/ted-2.webp",
     "image2": "assets/images/talent/profile/ted-1.webp",
     "image3": "assets/images/talent/profile/ted-3.webp",
